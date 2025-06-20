@@ -21,6 +21,7 @@ We were given a file called `garden.png` and a hint to use a hex editor. Our goa
 
 1. **Download the File**  
    We downloaded the file `garden.png`.
+   
    ![Image](https://github.com/user-attachments/assets/e0c42a25-a858-4ace-b3b6-09d88ca11f69)
 
 3. **Check the Hint**  
@@ -28,6 +29,7 @@ We were given a file called `garden.png` and a hint to use a hex editor. Our goa
 
 4. **Make a Hex Dump**  
    We used this command to turn the image into a readable format:
+   
    ![Image](https://github.com/user-attachments/assets/b8112054-594b-4543-822e-64de8e7de6b7)
 
 6. **Try Searching Automatically**  
