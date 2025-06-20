@@ -1,0 +1,24 @@
+# picoCTF Advanced Potion Making Write Up
+
+## File "Enumeration"
+
+I started off by doing some basic file searching in case the flag was hidden in plain sight.
+
+1. I ran the `strings` command and grepped the output on 'pico', 'ctf', 'flag', ignoring the case. No luck!
+
+$ strings advanced-potion-making | grep -i pico
+$ strings advanced-potion-making | grep -i ctf
+$ strings advanced-potion-making | grep -i flag
+
+
+2. Then I opened the file in VS Code as text to see if there was any secret hidden in between. Still no luck.
+
+3. I also viewed the file in a Hex Editor. Nothing obvious showed up in the hex array.
+
+---
+
+## File Format Discovery
+
+The challenge hinted the file may be corrupted by a spell. I checked what type it really is.
+
+1. Used `exiftool` to get metadata:
