@@ -1,4 +1,4 @@
-'''
+```
 Symbol table '.symtab' contains 83 entries:
    Num:    Value          Size Type    Bind   Vis      Ndx Name
      0: 0000000000000000     0 NOTYPE  LOCAL  DEFAULT  UND 
@@ -84,4 +84,4 @@ Symbol table '.symtab' contains 83 entries:
     80: 0000000000000640    85 FUNC    GLOBAL DEFAULT    3 is_invisible
     81: 00000000000006f0    63 FUNC    GLOBAL DEFAULT    3 module_show
     82: 0000000000000000     0 NOTYPE  GLOBAL DEFAULT  UND __kmalloc
-'''
+```
